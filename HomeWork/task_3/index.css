@@ -1,0 +1,21 @@
+body{
+    background-color: #023202;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info{
+    background-color: #467c46;
+    width: 250px;
+    height: 250px;
+
+}
+h3, p{
+    margin: 20px;
+}
+.info:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}

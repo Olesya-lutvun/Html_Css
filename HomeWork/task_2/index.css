@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    margin: 200px;
+
+}
+.circle{
+    background-color: #df0909;
+    width: 100px;
+    height: 100px;
+}
+.circle:hover{
+    background-color: #494848;
+    border-radius: 50%;
+    transition: 2s;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+
+}
+h2{
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    border:2px solid;
+    background-color: lightgray;
+    border-radius: 10%;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+}
+hr{
+    border: 1px solid;
+    border-color: darkgray;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+}
+p{
+    font-size: 40px;
+}
